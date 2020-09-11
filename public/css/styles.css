@@ -1,0 +1,53 @@
+body {
+    background-image: url('/img/h2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0  16px;
+
+    display:flex;
+    flex-direction: column;
+    min-height: 100v
+}
+h1 {
+    color : darkgreen;
+}
+h2 {
+    color : darksalmon;
+}
+img {
+     width: 25px;
+     height: 350px;
+}
+h4 {
+     color: darkorange
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+input {
+    border: 1px solid lawngreen;
+    padding: 8px;
+}
+button {
+    cursor: pointer;
+    border: 1px solid darkmagenta;
+    background: orangered;
+    color: white;
+    padding: 8px;
+}
+#message-1 {
+   color: red
+}
+#message-2 {
+    color: red
+ }
+
+ 
