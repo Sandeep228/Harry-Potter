@@ -3,6 +3,8 @@ const express = require('express')
 const publicDirectoryPath = path.join(__dirname, '../public')
 const hat = require('../harryhouse')
 const app = express()
+
+const port = process.env.PORT || 3000
 app.use(express.static(publicDirectoryPath))
 
 
@@ -22,6 +24,6 @@ app.get('/house', (req,res) => {
     }
 })
 
-app.listen(3000, () => {
-    console.log('Server is up on port 3000.')
+app.listen(port, () => {
+    console.log('Server is up on ' + port)
 })

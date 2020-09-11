@@ -8,7 +8,7 @@ hatform.addEventListener('submit', (e) => {
     const name1 = element.value
     messageOne.textContent = 'Loading...'
     messageTwo.textContent = ''
-    fetch('http://localhost:3000/house?name=' + name1 ).then((response) => {
+    fetch('/house?name=' + name1 ).then((response) => {
     response.json().then((data) => {
         messageOne.textContent = data.house
         messageTwo.textContent = data.name
